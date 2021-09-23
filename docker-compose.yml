@@ -1,0 +1,9 @@
+version: '2'
+
+services:
+
+  uncanny-beverage:
+    image: tmigone/uncanny-beverage
+    restart: no
+    labels:
+      io.balena.features.supervisor-api: 1
